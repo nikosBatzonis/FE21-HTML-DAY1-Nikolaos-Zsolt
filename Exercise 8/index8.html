@@ -1,73 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <!-- Create a planner for activities to do in Vienna over the weekend. 
-
-You will need 3 rows and 3 columns. The first row will contain the headings Day, Morning and Afternoon.
-
-The second row contains all the information for Saturday. Place descriptive lists within each of the two empty table cells(the cells for the morning and afternoon).
-
-
-For Sunday, use ordered lists to rank your activities. Within the ordered lists you should nest unordered lists with more information on each activity you plan. -->
-    <table>
-      <tr>
-        <th>Day</th>
-        <th>Morning</th>
-        <th>Afternoon</th>
-      </tr>
-      <tr>
-        <td>Saturday</td>
-        <td>
-          <dd>Lorem adipisicing elit. Aperiam modi sed quis, dolorem id ad!</dd>
-        </td>
-        <td>
-          <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit.</dd>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <ol>
-            <li>one</li>
-            <li>two</li>
-          </ol>
-        </td>
-        <td>
-          <ol>
-            <li>one</li>
-            <li>two</li>
-          </ol>
-        </td>
-        <td>
-          <ol>
-            <li>one</li>
-            <li>two</li>
-          </ol>
-        </td>
-      </tr>
-    </table>
-
-    <table>
-      <tr>
-        <th></th>
-        <th scope="col">Saturday</th>
-        <th scope="col">Sunday</th>
-      </tr>
-      <tr>
-        <th scope="row">Tickets sold:</th>
-        <td>120</td>
-        <td>135</td>
-      </tr>
-      <tr>
-        <th scope="row">Total sales:</th>
-        <td>$600</td>
-        <td>$675</td>
-      </tr>
-    </table>
-  </body>
+<html lang='en'>
+   <head>
+       <meta charset='utf-8'>
+       <title> Activities in Vienna </title>
+   </head>
+   <body>
+       <table border=".5">
+           <tr>
+               <th>Day</th>
+               <th>Morning</th>
+               <th>Afternoon</th>
+           </tr>
+           <tr>
+               <td>Saturday</td>
+               <td>
+                    <dl>
+                        <dt>routine</dt>
+                        <dd>take a shower</dd>
+                    <br>
+                        <dt>have breakfast</dt>
+                        <dd>soft boiled egg</dd>
+                        <dd>protein shake</dd>
+                    
+                        
+                    </dl>
+               </td>
+               <td>
+                <dl>
+                    <dt>relaxation</dt>
+                    <dd>take a nap</dd>
+                <br>
+                    <dt>go barhopping</dt>
+                    <dd>have a spritzer</dd>
+                    <dd>don't drink too much!</dd>
+                
+                    
+                </dl>
+           </td>
+           </tr>
+           <tr>
+               <td>Sunday</td>
+               <td>
+                    <ol>
+                        <li>get coffee</li>
+                        <li>take a walk</li>
+                    </ol>  
+                   
+                </td>   
+                <td>
+                    <ol>
+                        <li>get lunch
+                            <ul>
+                                <li>Spagetti</li>
+                                <li>Salad</li>
+                                <li>Cola</li>
+                              </ul>
+                            </li>
+                        <li>meet friends
+                            <ul>
+                                <li>14:00 Sandra</li>
+                                <li>15:00 Alex</li>
+                                <li>rest of afternoon: the gang</li>
+                            </ul>
+                        </li>
+                    </ol>  
+                </td>
+           </tr>
+           
+       </table>
+   </body>
 </html>
